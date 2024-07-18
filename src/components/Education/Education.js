@@ -11,8 +11,9 @@ const educationInfo = {
         subHeader: "Master of Science in Computer Science",
         duration: "August 2022 - December 2023",
         desc: "Relevant Coursework:",
+        gpa: "3.8",
         descBullets: [
-          "Algorithms for Modern Computing Systems, Data Models and Query Language Processing, Blockchain, Machine Learning, Information Retrieval, Data Intensive Computing"
+          "Algorithms Analysis & Design, Intro Machine Learning, Modern Networking Concepts, Advanced Programming Language Concepts, Blockchain, Data Models and Query Language, Data Intensive Computing"
         ]
       },
       {
@@ -21,6 +22,7 @@ const educationInfo = {
         subHeader: "Bachelor of Technolody in Computer Science",
         duration: "August 2016 - May 2020",
         desc: "Relevant Coursework:",
+        gpa: "3.8",
         descBullets: ["Operating Systems, Data Structures and Algorithms, Mathematics I II and III, Computer Networks, Object Oriented Programming, Artificial Intelligence and Machine Learning, Database Management Systems"]
       }
     ]
@@ -67,8 +69,11 @@ function EducationCard({school}) {
               <h5>
                 {school.subHeader}
               </h5>
-              <p>
+              <p style={{margin: '5px'}}>
                 {school.duration}
+              </p>
+              <p style={{margin: '5px'}}>
+                GPA :  {school.gpa}
               </p>
               <p>{school.desc}</p>
               <div>
@@ -90,7 +95,7 @@ function EducationCard({school}) {
 export default function Education() {
     if (educationInfo.display) {
       return (
-        <div id="education">
+        <div id="education" style={{marginTop:'100px'}}>
           <h1 className="project-heading">
           <strong className="purple">Education</strong>
         </h1>

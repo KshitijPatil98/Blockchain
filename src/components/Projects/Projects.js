@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Multi-topic Information Retrieval Chatbot (University at Buffalo)"
-              description="Engineered an NLP interface employing BERT deep learning for contextual bot replies via IR doc search. Implemented neural search with dense vector representations for document-query matching, resulting in ranked results
-              by relevance. Integrated chitchat dataset for 99% accurate fallback responses in non-relevant scenarios"
-              ghLink="https://github.com/shalmalee98/IR-chatbot"
+              title="End-to-End Jenkins CI Pipeline with SonarQube Integration"
+              description="Built a Jenkins CI pipeline with stages for cloning, installing dependencies, linting, unit testing, generating
+              coverage reports, SonarQube analysis, and pushing Docker images to Docker Hub with commit ID tags"
+              ghLink="https://github.com/KshitijPatil98/Jenkins_CI_Project"
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
@@ -37,8 +37,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Northstar (University at Buffalo)"
-              description=" Crafted React-powered mobile and web apps for curated research paper collections with level assignments. Seamlessly integrated neo4j APIs for robust data storage, elevating authentication by 40%. Spearheaded a platform enabling collection sharing, propelling an 80% surge in user engagement"
+              title="Blockchain Network Deployment on Kubernetes"
+              description="• Deployed a Hyperledger Fabric Permissioned Blockchain Network on a Kubernetes cluster, utilizing Deployments, Jobs, ConfigMaps, Secrets, Persistent Volumes with NFS, and NGINX Ingress controller"
+              ghLink="https://github.com/KshitijPatil98/Hyperledger-Fabric-K8"
             />
           </Col>
 
@@ -46,12 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Application Developer (Rocket Software)"
-              description="Worked in a team to develop a Low Code Application Builder using React for UI, Java for apis to retrive data. Using
-              this Builder, users can create applications, add functional code, drag and drop components (buttons, textboxes, radio
-              buttons, charts for data visualization), edit components using colors, fonts, sizes and also download, share and run the
-              application."
-              ghLink="https://github.com/shalmalee98/Application-builder"
+              title="Infrastructure Management with Terraform"
+              description="• Implemented Terraform projects including AWS EC2 remote provisioning, DynamoDB creation, S3 remote
+              backend setup, secret management, and Terraform Workspaces."
+              ghLink="https://github.com/KshitijPatil98/Terraform_Projects"
             />
           </Col>
 
@@ -66,25 +65,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Intruder Detection System for Smart Homes (CCOEW, Pune)"
-              description="Created an Automatic Visitor Monitoring System using IoT facilitating devices like PIR Sensor, Pi Camera and Raspberry Pi Minicomputer. When visitor comes near the door, sensor will sense his/her presence, capture visitor image and
-              email it as attachment to user using ssmtp, mailutils, MIME."
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Interface for sanctions screening of transactions (CitiCorp, Pune)"
-              description="Created an interface for sanctions screening of transactions against a predefined list of keywords to detect fraudful
-              transactions and block them or authorize them using JavaServlets, JSP, mySQl, Apache Tomcat and AngularJS."
-            />
-          </Col>
+         
         </Row>
       </Container>
     </Container>

@@ -4,20 +4,27 @@ import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
+    <Card className="quote-card-view" style={{marginTop: '100px'}}>
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Shalmalee Shenolikar </span>
-            from <span className="purple"> Buffalo, NY, USA.</span>
-            <br /> I am a masters' student pursuing Computer Science at State University of New York, University at Buffalo
-            <br />
-            Additionally, I am currently a student at University at Buffalo.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+          <p style={{ textAlign: "center", lineHeight: 1.75 }}>
+            Hi Everyone, I am <span className="purple">Kshitij Patil </span>
+            from <span className="purple"> Sunnyvale, CA.</span>
+            <br /> I am a passionate DevOps Engineer with a Master's degree in Computer Science from the University at Buffalo.  
+            {/* <br /> */}
+            I specialize in Kubernetes, Terraform, cloud infrastructure management, and GoLang, with hands-on experience in configuring and optimizing complex environments.
+            {/* <br /> */}
+            My expertise includes implementing CI/CD pipelines, automating workflows, and enhancing application performance.
+            {/* <br/> */}
+            At Incalus Inc, I significantly reduced infrastructure costs and downtime, boosting deployment efficiency and scalability.
+            {/* <br/> */}
+            With a strong background in programming languages like Go, Python, and Bash, I thrive in dynamic environments, driving innovation and operational excellence.
+            {/* <br/> */}
+            Additionally, I am a <span className="purple">Certified Kubernetes Application Developer </span>.
+            {/* <br /> */}
+            In my free time, I love playing tennis, working out, and cooking.
           </p>
-          <ul>
+          {/* <ul>
             <li className="about-activity">
               <ImPointRight /> Reading
             </li>
@@ -27,12 +34,12 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Hiking
             </li>
-          </ul>
+          </ul> */}
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "If someone has to do it, why not you?"{" "}
           </p>
-          <footer className="blockquote-footer">Shalmalee</footer>
+          <footer className="blockquote-footer">Kshitij</footer>
         </blockquote>
       </Card.Body>
     </Card>

@@ -5,8 +5,10 @@ import Type from "./Type";
 import About from "../About/About";
 import { AiFillGithub, AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
-import pdf from "../../Assets/../Assets/Shalmalee_resume.pdf";
+import pdf from "../../Assets/../Assets/Kshitij_Patil_Devops.pdf";
 import myImg from "../../Assets/profile.jpg";
+import cert from "../../Assets/ckad.png";
+import cert2 from "../../Assets/hfcp.png";
 import Experience from "../Experience/Experience";
 import { pdfjs } from "react-pdf";
 import Education from "../Education/Education";
@@ -14,6 +16,7 @@ import Projects from "../Projects/Projects";
 import ResumeNew from "../Resume/ResumeNew";
 import AboutCard from "../About/AboutCard";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function Home() {
@@ -39,7 +42,6 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
-            
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
@@ -57,9 +59,38 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <div style={{display: 'flex', justifyContent:'center'}}>
+        <a href={"https://www.credly.com/badges/adce2db3-5596-422d-97c3-859209d9bc88/public_url"} target="_blank" rel="noopener noreferrer">
+       
+      <img
+          style={{
+            borderRadius: "50%",
+            width: 150,
+            display: "block",
+          }}
+          src={cert}
+          className="img-fluid"
+          alt="avatar"
+        />
+      </a>
+      <a href={"https://www.credly.com/badges/e6119159-1917-4fe2-a82d-f24c039449a9/public_url"} target="_blank" rel="noopener noreferrer">
+       
+      <img
+          style={{
+            borderRadius: "50%",
+            width: 150,
+            display: "block",
+          }}
+          src={cert2}
+          className="img-fluid"
+          alt="avatar"
+        />
+      </a>
+      </div>
       {/* <Home2 /> */}
       <AboutCard />
       <About />
+
       <Education />
       <Experience />
       <Projects />
