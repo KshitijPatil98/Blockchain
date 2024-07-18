@@ -10,15 +10,15 @@ function AboutCard() {
           <p style={{ textAlign: "center", lineHeight: 1.75 }}>
             Hi Everyone, I am <span className="purple">Kshitij Patil </span>
             from <span className="purple"> Sunnyvale, CA.</span>
-            <br /> I am a passionate DevOps Engineer with a Master's degree in Computer Science from the University at Buffalo.  
+            <br /> I am a passionate <span className="purple">DevOps Engineer</span> with a <span className="purple">Master's degree in Computer Science</span> from the <span className="purple">University at Buffalo, SUNY</span>.  
             {/* <br /> */}
-            I specialize in Kubernetes, Terraform, cloud infrastructure management, and GoLang, with hands-on experience in configuring and optimizing complex environments.
+            I specialize in <span className="purple">Kubernetes, Terraform, cloud infrastructure management</span>, and <span className="purple">GoLang</span>, with hands-on experience in configuring and optimizing complex environments.
             {/* <br /> */}
-            My expertise includes implementing CI/CD pipelines, automating workflows, and enhancing application performance.
+            My expertise includes implementing <span className="purple">CI/CD pipelines</span>, automating workflows, and enhancing application performance.
             {/* <br/> */}
             At Incalus Inc, I significantly reduced infrastructure costs and downtime, boosting deployment efficiency and scalability.
             {/* <br/> */}
-            With a strong background in programming languages like Go, Python, and Bash, I thrive in dynamic environments, driving innovation and operational excellence.
+            With a strong background in programming languages like <span className="purple">Go, Python, and Bash</span>, I thrive in dynamic environments, driving innovation and operational excellence.
             {/* <br/> */}
             Additionally, I am a <span className="purple">Certified Kubernetes Application Developer </span>.
             {/* <br /> */}
@@ -39,7 +39,7 @@ function AboutCard() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "If someone has to do it, why not you?"{" "}
           </p>
-          <footer className="blockquote-footer">Kshitij</footer>
+          <footer style={{marginBottom: '380px'}} className="blockquote-footer">Kshitij</footer>
         </blockquote>
       </Card.Body>
     </Card>

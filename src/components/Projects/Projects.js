@@ -61,7 +61,7 @@ function Projects() {
               title="Decentralized Pharmaceutical Supply Chain Management (University at Buffalo)"
               description="Led design, development, and implementation of a pioneering pharmaceutical supply chain solution using blockchain
               and Solidity smart contracts. Streamlined collaboration among stakeholders for a transparent, traceable, and trusted drug supply chain. Transformed the pharmaceutical supply chain by establishing a single source of truth for drug transactions"
-              ghLink="https://github.com/shalmalee98/PharmaSupplyChain-SmartContract"
+              // ghLink="https://github.com/shalmalee98/PharmaSupplyChain-SmartContract"
             />
           </Col>
 

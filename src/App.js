@@ -47,7 +47,7 @@ function App() {
           <Route path="/education" element={<Education/>} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
