@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Type from "./Type";
 import About from "../About/About";
-import { AiOutlineDownload } from "react-icons/ai";
+import { AiFillGithub, AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
 import pdf from "../../Assets/../Assets/Shalmalee_resume.pdf";
 import myImg from "../../Assets/profile.jpg";
@@ -12,6 +12,8 @@ import { pdfjs } from "react-pdf";
 import Education from "../Education/Education";
 import Projects from "../Projects/Projects";
 import ResumeNew from "../Resume/ResumeNew";
+import AboutCard from "../About/AboutCard";
+import { FaLinkedinIn } from "react-icons/fa";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function Home() {
@@ -31,43 +33,37 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SHALMALEE SHENOLIKAR</strong>
+                <strong className="main-name"> KSHITIJ PATIL</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
-              <div style={{padding: 50}}>
-                <Button
-                  variant="primary"
-                  href={pdf}
-                  target="_blank"
-                  style={{ maxWidth: "250px" }}
-                >
-                  <AiOutlineDownload />
-                  &nbsp;Download CV
-                </Button>
-              </div>
+            
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img style={{
-                borderRadius: "50%",
-                width: 400,
-                display: "block"
-              }} src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                style={{
+                  borderRadius: "50%",
+                  width: 400,
+                  display: "block",
+                }}
+                src={myImg}
+                className="img-fluid"
+                alt="avatar"
+              />
             </Col>
-            
           </Row>
-
         </Container>
       </Container>
       {/* <Home2 /> */}
-      <About/>
-      <Education/>
-      <Experience/>
-      <Projects/>
-      <ResumeNew/>
+      <AboutCard />
+      <About />
+      <Education />
+      <Experience />
+      <Projects />
+      <ResumeNew />
     </section>
   );
 }

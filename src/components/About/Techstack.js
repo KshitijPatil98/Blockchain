@@ -2,99 +2,177 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
+  DiGo,
   DiPython,
-  DiGit,
-  DiJava,
-  DiAws,
-  DiHtml5,
-  DiCss3,
-  DiAngularSimple,
+  DiJavascript1,
+  DiLinux,
+  DiWindows,
   DiDocker,
-  DiGoogleCloudPlatform
+  DiJenkins,
+
+
+
 } from "react-icons/di";
+
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-  SiApachekafka,
-  SiElasticsearch,
-  SiMysql,
-  SiNeo4J,
+  SiShell,
   SiTerraform,
-  SiExpress,
-  SiChai,
-  SiMocha,
-  SiGraphql,
-  SiKubernetes
+  SiAnsible,
+  SiPuppet,
+  SiChef,
+  SiKubernetes,
+  SiHelm,
+  SiGithubactions,
+  SiGitlab,
+  SiArgo,
+  SiPrometheus,
+  SiGrafana,
+  SiElasticstack,
+  SiAmazoncloudwatch,
+  SiAmazonec2,
+  SiAmazonrds,
+  SiAmazoneks,
+  SiAmazoniam,
+  SiAmazonroute53,
+  SiApachegroovy
 } from "react-icons/si";
+
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
+    <div>
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-        <h5>Javascript</h5>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-        <h5>React</h5>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-        <h5>NodeJS</h5>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-        <h5>MongoDB</h5>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiAws />
-        <h5>AWS</h5>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTerraform />
-        <h5>Terraform</h5>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiApachekafka />
-        <h5>Apache Kafka</h5>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-        <h5>Solidity</h5>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-        <h5>Git Github</h5>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-        <h5>Firebase</h5>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-        <h5>Postgresql</h5>
+        <DiGo  />
+        <h5>GoLang</h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
         <h5>Python</h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-        <h5>Java</h5>
+        <DiJavascript1 />
+        <h5>Javascript</h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <SiKubernetes/>
-      <h5>Kubernetes</h5>
+        <SiApachegroovy />
+        <h5>Groovy</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiShell />
+        <h5>Bash</h5>
       </Col>
     </Row>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiWindows />
+        <h5>Windows</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiLinux />
+        <h5>Linux</h5>
+      </Col>
+    </Row>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonec2 />
+        <h5>EC2</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazoneks />
+        <h5>EKS</h5>
+      </Col>
+     
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonrds />
+        <h5>RDS</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonroute53 />
+        <h5>Route53</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazoniam />
+        <h5>IAM</h5>
+      </Col>
+    </Row>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTerraform />
+        <h5>Terraform</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAnsible />
+        <h5>Ansible</h5>
+      </Col>
+     
+      <Col xs={4} md={2} className="tech-icons">
+        <SiChef />
+        <h5>Chef</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPuppet />
+        <h5>Puppet</h5>
+      </Col>
+    </Row>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+        <h5>Docker</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
+        <h5>Kubernetes</h5>
+      </Col>
+     
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHelm />
+        <h5>Helm</h5>
+      </Col>
+    </Row>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJenkins />
+        <h5>Jenkins</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithubactions />
+        <h5>Github Actions</h5>
+      </Col>
+     
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGitlab />
+        <h5>Gitlab CI/CD</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiArgo />
+        <h5>ArgoCD</h5>
+      </Col>
+    </Row>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPrometheus />
+        <h5>Prometheus</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGrafana />
+        <h5>Grafana</h5>
+      </Col>
+     
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazoncloudwatch />
+        <h5>CloudWatch</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiElasticstack />
+        <h5>SiElasticstack</h5>
+      </Col>
+    </Row>
+    
+    
+    </div>
+    
   );
 }
 
