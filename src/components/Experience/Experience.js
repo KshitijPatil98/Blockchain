@@ -21,15 +21,15 @@ function Experience() {
           <VerticalTimeline>
           <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                contentStyle={{ background: 'rgb(153, 50, 204)', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(153, 50, 2043)' }}
                 date="May 2023 - Present"
-                iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                iconStyle={{ background: 'rgb(153, 50, 204)', color: '#fff' }}
                 icon={<SiWorkplace />}
             >
                 <h3 className="vertical-timeline-element-title">Incalus Inc.</h3>
                 <h4 className="vertical-timeline-element-title">DevOps Engineer</h4>
-                <h5 style={{color: 'darkblue'}}>Fremont, CA</h5>
+                <h5 style={{color: 'black'}}>Fremont, CA</h5>
                 <h6>
                 • Configured a Kubernetes cluster from scratch using Kubeadm, including setting up the control plane and
 worker nodes, resulting in a 30% reduction in infrastructure costs.
@@ -38,9 +38,11 @@ worker nodes, resulting in a 30% reduction in infrastructure costs.
                 • Leveraged Terraform- to provision new environments on AWS (VPCs, subnets, NAT Gateways, ELB, EC2 etc.)
 in less than 10 minutes, resulting in 27% increase in deployment frequency. </h6>
                 <h6>
-                • Implemented Nginx Ingress Controller in Kubernetes, refining routing strategies and delivering a substantial
-20% boost in application scalability for improved performance.
- </h6>
+                • Created custom Kubernetes Controllers in Golang, improving automation and resource management by 28%.
+               </h6>
+               <h6>
+                • Engineered CI/CD pipelines with GitLab CI/CD and GitHub Actions, accelerating deployment cycles by 46%.
+               </h6>
                 <h6>
                 • Spearheaded ArgoCD-driven GitOps workflows, optimizing deployment efficiency by 50%. </h6>
                 <h6>
@@ -48,40 +50,43 @@ in less than 10 minutes, resulting in 27% increase in deployment frequency. </h6
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                contentStyle={{ background: 'rgb(153, 50, 204)', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(153, 50, 204)' }}
                 date="December 2021 - April 2022"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                iconStyle={{ background: 'rgb(153, 50, 204)', color: '#fff' }}
                 icon={<SiWorkplace />}
             >
                 <h3 className="vertical-timeline-element-title">Mckinley Rice</h3>
                 <h4 className="vertical-timeline-element-title">DevOps Engineer</h4>
-                <h5 style={{color: 'darkblue'}}>Pune, India</h5>
+                <h5 style={{color: 'black'}}>Pune, India</h5>
+                <h6>
+                • Achieved a 63% reduction in Mean Time to Recovery (MTTR) by monitoring system logs and utilizing Python
+scripts to identify and resolve potential issues preemptively, preventing outages.
+               </h6>
+               <h6>
+                • Implemented Nginx Ingress Controller in Kubernetes, refining routing and enhancing app scalability by 20%.
+ </h6>
+ <h6>
+                • Deployed and managed containerized applications using Docker Swarm, improving orchestration by 23%.
+ </h6>
                 <h6>
                 • Led optimization of production deployments, achieved a 35% speed increase, maintained 99.9% application
 uptime using Kubernetes, and contributed to the team’s success.
                 </h6>
-                <h6>
-                • Engineered CI/CD pipelines with GitLab CI/CD, accelerating deployment cycles by 46% . </h6>
-                <h6>
-                • Achieved a 63% reduction in Mean Time to Recovery (MTTR) by monitoring system logs and utilizing Python
-scripts to identify and resolve potential issues preemptively, preventing outages.
- </h6>
-                <h6>
-                • Automated system tasks and optimized workflows using Bash scripts, boosting operational efficiency by 30%. </h6>
-                
+              
+               
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                contentStyle={{ background: 'rgb(153, 50, 204)', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(153, 50, 204)' }}
                 date="November 2020 - December 2021"
-                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                iconStyle={{ background: 'rgb(153, 50, 204)', color: '#fff' }}
                 icon={<SiWorkplace />}
             >
                 <h3 className="vertical-timeline-element-title">Cognizant </h3>
                 <h4 className="vertical-timeline-element-title">Platform Engineer </h4>
-                <h5 style={{color: 'darkblue'}}>Pune, India</h5>
+                <h5 style={{color: 'black'}}>Pune, India</h5>
                 <h6>
                 • Reduced deployment time of new microservices by 45% through the implementation of testing and deployment
 processes using Jenkins, Git, SonarQube, AWS ECR, AWS ECS, and Docker.
@@ -89,6 +94,9 @@ processes using Jenkins, Git, SonarQube, AWS ECR, AWS ECS, and Docker.
                 <h6>
                 • Devised automation tools using Terraform, and AWS CloudFormation, reducing manual effort by 43%.
                 </h6>
+                <h6>
+                • Automated system tasks and optimized workflows using Bash scripts, boosting operational efficiency by 30%. </h6>
+                
                 <h6>
                 • Employed Ansible for streamlined software provisioning, leading to a 40% reduction in deployment time.
                 </h6>

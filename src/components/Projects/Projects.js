@@ -49,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="Infrastructure Management with Terraform"
               description="• Implemented Terraform projects including AWS EC2 remote provisioning, DynamoDB creation, S3 remote
-              backend setup, secret management, and Terraform Workspaces."
+              backend setup, secret management, and Terraform Workspaces for environment isolation."
               ghLink="https://github.com/KshitijPatil98/Terraform_Projects"
             />
           </Col>
@@ -62,6 +62,16 @@ function Projects() {
               description="Led design, development, and implementation of a pioneering pharmaceutical supply chain solution using blockchain
               and Solidity smart contracts. Streamlined collaboration among stakeholders for a transparent, traceable, and trusted drug supply chain. Transformed the pharmaceutical supply chain by establishing a single source of truth for drug transactions"
               // ghLink="https://github.com/shalmalee98/PharmaSupplyChain-SmartContract"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="FabriQuik"
+              description="Developed an intuitive CLI tool using Golang that simplifies the setup of permissioned blockchain networks. This tool automates the generation of all necessary scripts for deploying a Hyperledger Fabric network, including Docker configurations and other setup components. It streamlines the deployment process, reducing manual configuration efforts and ensuring consistent environment setups."
+              ghLink="https://github.com/KshitijPatil98/fabriquik"
             />
           </Col>
 

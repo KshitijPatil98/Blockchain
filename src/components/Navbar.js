@@ -12,7 +12,11 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
+import { IoIosCode } from 'react-icons/io';
+import {
+  FaGraduationCap,
+  FaBriefcase
+} from "react-icons/fa";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -81,10 +85,20 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/skills"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillStar style={{ marginBottom: "2px" }} /> Skills
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/education"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <FaGraduationCap
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Education
@@ -97,7 +111,7 @@ function NavBar() {
                 to="/experience"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <FaBriefcase
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Experience
@@ -110,7 +124,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <IoIosCode
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
