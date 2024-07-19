@@ -56,7 +56,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={chatify}
               isBlog={false}
               title="Decentralized Pharmaceutical Supply Chain Management (University at Buffalo)"
               description="Led design, development, and implementation of a pioneering pharmaceutical supply chain solution using blockchain
@@ -67,7 +67,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={bitsOfCode}
               isBlog={false}
               title="FabriQuik"
               description="Developed an intuitive CLI tool using Golang that simplifies the setup of permissioned blockchain networks. This tool automates the generation of all necessary scripts for deploying a Hyperledger Fabric network, including Docker configurations and other setup components. It streamlines the deployment process, reducing manual configuration efforts and ensuring consistent environment setups."

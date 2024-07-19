@@ -66,14 +66,19 @@ function Techstack() {
     </Row>
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiWindows />
-        <h5>Windows</h5>
+        <DiDocker />
+        <h5>Docker</h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiLinux />
-        <h5>Linux</h5>
+        <SiKubernetes />
+        <h5>Kubernetes</h5>
+      </Col> 
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHelm />
+        <h5>Helm</h5>
       </Col>
     </Row>
+    
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiAmazonec2 />
@@ -116,21 +121,7 @@ function Techstack() {
         <h5>Puppet</h5>
       </Col>
     </Row>
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiDocker />
-        <h5>Docker</h5>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiKubernetes />
-        <h5>Kubernetes</h5>
-      </Col>
-     
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHelm />
-        <h5>Helm</h5>
-      </Col>
-    </Row>
+
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <DiJenkins />
@@ -167,6 +158,16 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiElasticstack />
         <h5>SiElasticstack</h5>
+      </Col>
+    </Row>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiWindows />
+        <h5>Windows</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiLinux />
+        <h5>Linux</h5>
       </Col>
     </Row>
     
