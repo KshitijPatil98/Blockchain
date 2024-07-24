@@ -43,7 +43,9 @@ import {
   SiPostgresql,
   SiApachecouchdb,
   SiMongodb,
-  SiNeo4J
+  SiNeo4J,
+  SiAwslambda,
+ SiAmazons3
 } from "react-icons/si";
 
 import { TbBrandGolang } from "react-icons/tb";
@@ -121,8 +123,8 @@ function Techstack() {
         <h5>MongoDB</h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHelm />
-        <h5>Helm</h5>
+        <SiNeo4J />
+        <h5>Neo4j</h5>
         </Col>
     </Row>   
     
@@ -141,7 +143,7 @@ function Techstack() {
         </Col> 
         <Col xs={4} md={2} className="tech-icons">
         <SiAmazoneks />
-        <h5>EKS</h5>
+        <h5>Amazon EKS</h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHelm />
@@ -153,20 +155,24 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiAmazonec2 />
         <h5>EC2</h5>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+        <SiAmazoniam />
+        <h5>IAM</h5>
       </Col>
-      
       <Col xs={4} md={2} className="tech-icons">
-        <SiAmazonrds />
-        <h5>RDS</h5>
+        <SiAwslambda />
+        <h5>Lambda</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazons3 />
+        <h5>S3</h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAmazonroute53 />
         <h5>Route53</h5>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAmazoniam />
-        <h5>IAM</h5>
-      </Col>
+     
     </Row>
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
