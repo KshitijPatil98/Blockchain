@@ -5,7 +5,7 @@ import Type from "./Type";
 import About from "../About/About";
 import { AiFillGithub, AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
-import pdf from "../../Assets/../Assets/Kshitij_Patil_Devops.pdf";
+import pdf from "../../Assets/../Assets/Kshitij_Patil_Blockchain.pdf";
 import myImg from "../../Assets/profile.jpg";
 import cert from "../../Assets/ckad.png";
 import cert2 from "../../Assets/hfcp.png";

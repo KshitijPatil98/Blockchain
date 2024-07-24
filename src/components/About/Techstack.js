@@ -9,7 +9,7 @@ import {
   DiWindows,
   DiDocker,
   DiJenkins,
-
+  
 
 
 } from "react-icons/di";
@@ -34,14 +34,23 @@ import {
   SiAmazoneks,
   SiAmazoniam,
   SiAmazonroute53,
-  SiApachegroovy
+  SiApachegroovy,
+  SiHyperledger,
+  SiEthereum,
+  SiNodedotjs,
+  SiExpress,
+  SiMysql,
+  SiPostgresql,
+  SiApachecouchdb,
+  SiMongodb,
+  SiNeo4J
 } from "react-icons/si";
 
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
-    <div>
+    <div>   
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <DiGo  />
@@ -62,21 +71,82 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiShell />
         <h5>Bash</h5>
+        </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGo  />
+        <h5>Gin</h5>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+        <DiGo  />
+        <h5>Echo</h5>
       </Col>
-    </Row>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGo  />
+        <h5>Gorilla Mux</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNodedotjs />
+        <h5>NodeJS</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
+        <h5>ExpressJS</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHyperledger />
+        <h5>Hyperledger Fabric</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiEthereum />
+        <h5>Ethereum</h5>
+        </Col>
+      </Row>
+  
+      <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+        <h5>PostgreSQL</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachecouchdb />
+        <h5>CouchDB</h5>
+        </Col> 
+        <Col xs={4} md={2} className="tech-icons">
+        <SiMongodb/>
+        <h5>MongoDB</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHelm />
+        <h5>Helm</h5>
+        </Col>
+    </Row>   
+    
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <DiDocker />
         <h5>Docker</h5>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+        <h5>Docker-Swarm</h5>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiKubernetes />
         <h5>Kubernetes</h5>
-      </Col> 
+        </Col> 
+        <Col xs={4} md={2} className="tech-icons">
+        <SiAmazoneks />
+        <h5>EKS</h5>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHelm />
         <h5>Helm</h5>
-      </Col>
+        </Col>
     </Row>
     
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -84,11 +154,7 @@ function Techstack() {
         <SiAmazonec2 />
         <h5>EC2</h5>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAmazoneks />
-        <h5>EKS</h5>
-      </Col>
-     
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiAmazonrds />
         <h5>RDS</h5>
