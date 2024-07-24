@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Blockchain/static/css/main.efb9f72a.css",
-    "main.js": "/Blockchain/static/js/main.25281ac3.js",
+    "main.js": "/Blockchain/static/js/main.9ea6622c.js",
     "static/js/453.ace21015.chunk.js": "/Blockchain/static/js/453.ace21015.chunk.js",
     "static/media/leaf.png": "/Blockchain/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/emotion.png": "/Blockchain/static/media/emotion.eabfc16e7a146ab15778.png",
@@ -13,18 +13,18 @@
     "static/media/chatify.png": "/Blockchain/static/media/chatify.7206044e0b5cdad44726.png",
     "static/media/hfcp.png": "/Blockchain/static/media/hfcp.6ea52e01eac96a270f6a.png",
     "static/media/ub_logo.jpg": "/Blockchain/static/media/ub_logo.946a0d1fb735ab278758.jpg",
-    "static/media/Kshitij_Patil_Blockchain.pdf": "/Blockchain/static/media/Kshitij_Patil_Blockchain.5701426fdbd494ea0c82.pdf",
+    "static/media/Kshitij_Patil_Blockchain.pdf": "/Blockchain/static/media/Kshitij_Patil_Blockchain.dfa69057ca2f8f3bd82f.pdf",
     "static/media/profile.jpg": "/Blockchain/static/media/profile.7d9fb3b6bdb3a54b3838.jpg",
     "static/media/home-bg.jpg": "/Blockchain/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/puneuniversity_logo.jpg": "/Blockchain/static/media/puneuniversity_logo.55016bbce1afd394533b.jpg",
     "static/media/pre.svg": "/Blockchain/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Blockchain/index.html",
     "main.efb9f72a.css.map": "/Blockchain/static/css/main.efb9f72a.css.map",
-    "main.25281ac3.js.map": "/Blockchain/static/js/main.25281ac3.js.map",
+    "main.9ea6622c.js.map": "/Blockchain/static/js/main.9ea6622c.js.map",
     "453.ace21015.chunk.js.map": "/Blockchain/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.efb9f72a.css",
-    "static/js/main.25281ac3.js"
+    "static/js/main.9ea6622c.js"
   ]
 }
